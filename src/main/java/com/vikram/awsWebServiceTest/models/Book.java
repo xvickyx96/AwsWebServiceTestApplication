@@ -17,10 +17,8 @@ import lombok.*;
 @AllArgsConstructor
 public class Book {
 
-    //@MongoId
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    //private String id;
     private Long id;
     private String title;
 
